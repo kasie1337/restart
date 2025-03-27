@@ -1,0 +1,82 @@
+@media (min-width: 1024px) {
+  .list_food {
+    grid-area: restaurant;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px repeat(2, 250px) 70px;
+    grid-template-areas: "title title"
+                         "item_a item_c"
+                         "item_a item_c"
+                         "item_b item_d"
+                         "item_b item_d";
+    grid-gap: 20px;
+    background: #F6F6F6;
+    padding: 20px;
+  }
+  @include list-food;
+}
+
+@media (min-width: 768px) {
+  .list_food {
+    grid-area: restaurant;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px repeat(3, 250px);
+    grid-template-areas: "title title"
+                         "item_a item_b"
+                         "item_c item_d";
+    grid-gap: 20px;
+    background: #F6F6F6;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  @include list-food;
+}
+
+@media (max-width: 767px) {
+  .list_food {
+    grid-area: restaurant;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px repeat(4, 250px);
+    grid-template-areas: "title"
+                           "item_a"
+                           "item_b"
+                           "item_c"
+                           "item_d";
+    grid-gap: 20px;
+    background: #F6F6F6;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  @include list-food;
+}
+
+.list_food-love {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  font-size: 2rem;
+}
+
+.list_love-solid {
+  position: absolute;
+  bottom: 36%;
+  right: 25px;
+  font-size: 2rem;
+  transform: scale(0);
+  background: radial-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: transform 1s;
+}
+
+.list_food-love:hover ~ .list_love-solid, .list_love-solid:hover {
+  transform: scale(1);
+}
+
+
+
+
+
+

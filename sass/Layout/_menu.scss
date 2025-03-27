@@ -1,0 +1,44 @@
+@media(min-width: 1024px) {
+  @include menu-one;
+  .up_page {
+    img {
+      object-fit: cover;
+      max-height: 100%;
+      display: block;
+      width: 100%;
+      height: 240px;
+    }
+  }
+  .body_menu-one {
+    grid-template-rows: 350px auto 200px
+  }
+
+  .menu_list {
+    .menu_list-choise {
+      height: 80px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  @include menu-one;
+  .up_page {
+    img {
+      object-fit: cover;
+      max-height: 100%;
+      display: block;
+      width: 100%;
+      height: 240px;
+    }
+  }
+  .menu_list {
+    .menu_list-choise {
+      height: 80px;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  @include menu-one;
+}
+

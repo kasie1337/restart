@@ -1,0 +1,17 @@
+.bot_page {
+  grid-area: footer;
+  background: #353535;
+  color: white;
+  padding: 20px;
+
+  .bot_page-title {
+    font-family: Shrikhand, sans-serif, Droid Serif;
+  }
+
+  .bot_page-icon {
+    font-size: 1rem;
+    height: 16px;
+    width: 20px;
+    margin-right: 5px;
+  }
+}

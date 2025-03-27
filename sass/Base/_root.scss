@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+}
+
+@font-face {
+  font-family: 'Shrikhand';
+  src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+}
+
+li {
+  font-size: 1.60rem;
+}
+
+label, input {
+  font-size: 1.55rem;
+}
+
+h1 {
+  font-size: 2.95rem;
+}
+
+h2 {
+  font-size: 2.40rem;
+}
+
+h3 {
+  font-size: 1.80rem;
+}
+
+p {
+  font-size: 1.75rem;
+}
+
+ul {
+  font-size: 1.50rem;
+}
+
+button {
+  font-size: 1.65rem;
+}
+
+legend {
+  font-size: 1.45rem;
+}
+
+@media(min-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 1024px) {
+  :root {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 10px;
+  }
+
+}
+
