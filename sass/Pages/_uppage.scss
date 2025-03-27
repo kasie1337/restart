@@ -1,0 +1,46 @@
+.up_page {
+  grid-area: header;
+  text-align: center;
+  background: #F6F6F6;
+  position: relative;
+
+  .up_page-title {
+    font-family: Shrikhand, sans-serif, Droid Serif;
+    background: white;
+
+  }
+
+  .up_page-sd-title {
+    padding: 45px 45px 0 45px;
+  }
+
+  .up_page-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .up_page-search {
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to bottom, silver 0%, #EAEAEA 10%);
+    height: 50px;
+  }
+
+  .up_page-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .up_page-city {
+    font-weight: 700;
+    background: #EAEAEA;
+    border: unset;
+    text-align: center;
+    width: 80%;
+  }
+
+}
+
+
